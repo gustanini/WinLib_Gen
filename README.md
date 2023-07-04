@@ -62,4 +62,4 @@ Username: user
 Password: password
 ```
 
-After a few moments, our WebDAV and Python3 servers will receive requests and our listener will grab a shell.
+When our victim finally opens the malicious file, our WebDAV and Python3 servers will receive requests and our listener will grab a shell.
