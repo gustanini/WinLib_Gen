@@ -1,3 +1,5 @@
+This repo contains instructions on how to perform a Windows Library File phishing attack.
+
 ## Creating Windows Library File
 
 This file, once opened, will point the target machine to our WebDAV server (more on this later). In order to create this file we will execute either of the `winlib_gen` scripts included in this repo.
